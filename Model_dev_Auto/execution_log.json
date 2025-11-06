@@ -1,0 +1,140 @@
+[
+  {
+    "operation": "load_train_data",
+    "details": {
+      "success": true,
+      "rows": 5000,
+      "columns": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_7",
+        "feature_8",
+        "feature_9",
+        "feature_10"
+      ],
+      "dtypes": {
+        "feature_1": "float64",
+        "feature_2": "float64",
+        "feature_3": "float64",
+        "feature_4": "float64",
+        "feature_5": "float64",
+        "feature_6": "float64",
+        "feature_7": "float64",
+        "feature_8": "float64",
+        "feature_9": "float64",
+        "feature_10": "float64"
+      },
+      "missing_values": {
+        "feature_1": 0,
+        "feature_2": 0,
+        "feature_3": 0,
+        "feature_4": 0,
+        "feature_5": 0,
+        "feature_6": 0,
+        "feature_7": 0,
+        "feature_8": 0,
+        "feature_9": 0,
+        "feature_10": 0
+      },
+      "numeric_columns": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_7",
+        "feature_8",
+        "feature_9",
+        "feature_10"
+      ]
+    },
+    "timestamp": "2025-11-05T16:16:17.151406"
+  },
+  {
+    "operation": "load_test_data",
+    "details": {
+      "success": true,
+      "rows": 1000,
+      "columns": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_7",
+        "feature_8",
+        "feature_9",
+        "feature_10"
+      ],
+      "dtypes": {
+        "feature_1": "float64",
+        "feature_2": "float64",
+        "feature_3": "float64",
+        "feature_4": "float64",
+        "feature_5": "float64",
+        "feature_6": "float64",
+        "feature_7": "float64",
+        "feature_8": "float64",
+        "feature_9": "float64",
+        "feature_10": "float64"
+      },
+      "missing_values": {
+        "feature_1": 0,
+        "feature_2": 0,
+        "feature_3": 0,
+        "feature_4": 0,
+        "feature_5": 0,
+        "feature_6": 0,
+        "feature_7": 0,
+        "feature_8": 0,
+        "feature_9": 0,
+        "feature_10": 0
+      },
+      "numeric_columns": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_7",
+        "feature_8",
+        "feature_9",
+        "feature_10"
+      ]
+    },
+    "timestamp": "2025-11-05T16:16:26.359400"
+  },
+  {
+    "operation": "feature_selection",
+    "details": {
+      "features": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6",
+        "feature_7",
+        "feature_8",
+        "feature_9",
+        "feature_10"
+      ]
+    },
+    "timestamp": "2025-11-05T16:16:34.192461"
+  },
+  {
+    "operation": "create_splits",
+    "details": {
+      "n_splits": 5,
+      "split_ratio": "80:20"
+    },
+    "timestamp": "2025-11-05T16:16:34.193194"
+  }
+]
